@@ -103,14 +103,14 @@ cp .env.example .env
 `.env` 最小配置：
 
 ```env
-APP_NAME=ai-customer-service
-APP_ENV=development
-APP_DEBUG=true
-APP_PORT=8000
-DATABASE_URL=postgresql+asyncpg://ai_cs:ai_cs_pass@localhost:5432/ai_customer_service
-DATABASE_URL_SYNC=postgresql+psycopg2://ai_cs:ai_cs_pass@localhost:5432/ai_customer_service
-SECRET_KEY=dev-secret-change-in-production
-ACCESS_TOKEN_EXPIRE_MINUTES=30
+APP_NAME=
+APP_ENV=
+APP_DEBUG=
+APP_PORT=
+DATABASE_URL=
+DATABASE_URL_SYNC=
+SECRET_KEY=
+ACCESS_TOKEN_EXPIRE_MINUTES=
 ```
 
 ### 4. 执行数据库迁移
